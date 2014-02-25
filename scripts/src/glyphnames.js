@@ -1,4 +1,4 @@
-module.exports = {
+define({
     "4stringTabClef": {
         "codepoint": "U+E06D"
     }, 
@@ -7617,4 +7617,4 @@ module.exports = {
     "windWeakAirPressure": {
         "codepoint": "U+E5B2"
     }
-}
+});

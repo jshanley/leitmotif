@@ -1,4 +1,4 @@
-module.exports = {
+define({
     "fontName": "Bravura",
     "fontVersion": 0.80,
 
@@ -1790,4 +1790,4 @@ module.exports = {
             ]
         }
     }
-};
+});

@@ -3,3 +3,9 @@
   font-family: 'bravuraregular';
   font-size: 16px;
 }
+.output-area {
+  background-color: #efefef;
+}
+.input-area {
+  background-color: #ccc;
+}

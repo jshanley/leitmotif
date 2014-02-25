@@ -28,8 +28,7 @@ module.exports = function(grunt) {
 				files: ['index.html']
 			},
 			js: {
-				files: ['scripts/src/**/*.js'],
-				tasks: ['gluejs']
+				files: ['scripts/src/**/*.js']
 			},
 			less: {
 				options: {
@@ -41,16 +40,6 @@ module.exports = function(grunt) {
 			css: {
 				files: ['styles/main.css']
 			}
-		},
-		gluejs: {
-			build: {
-				options: {
-					export: 'leitmotif',
-					main: 'scripts/src/main.js'
-				},
-				src: 'scripts/src/**/*.js',
-				dest: 'scripts/leitmotif.js'
-			}
 		}
 	});
 	grunt.loadNpmTasks('grunt-contrib-gluejs');
@@ -58,6 +47,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-less');
 
-	grunt.registerTask('default', ['gluejs', 'less:dev']);
-	grunt.registerTask('preview', ['gluejs', 'less:dev', 'connect', 'watch']);
+	grunt.registerTask('default', ['less:dev']);
+	grunt.registerTask('preview', ['less:dev', 'connect', 'watch']);
 };
