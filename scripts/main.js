@@ -1,10 +1,17 @@
-require.config({
-	baseUrl: 'scripts/src',
-	paths: {
-		d3: '../../bower_components/d3/d3'
-	}
-});
+(function() {
 
-require(['svg/output', 'svg/input'], function(o,i) {
-	console.log(o,i);
-});
+	'use strict';
+
+	require.config({
+		baseUrl: 'scripts/src',
+		paths: {
+			'jquery': '../../vendor/jquery/dist/jquery',
+			'd3': '../../vendor/d3/d3'
+		}
+	});
+
+	require(['app'], function(app) {
+		app.init();
+	});
+
+})();

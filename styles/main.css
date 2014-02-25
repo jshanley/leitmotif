@@ -3,9 +3,22 @@
   font-family: 'bravuraregular';
   font-size: 16px;
 }
-.output-area {
+body {
   background-color: #efefef;
 }
-.input-area {
-  background-color: #ccc;
+.svg-input {
+  background-color: #e7e7e7;
+}
+.svg-input .directions {
+  font-family: 'bravuraregular';
+  fill: #38a;
+}
+.svg-input .line {
+  stroke-width: 2;
+}
+.svg-input .line.staff {
+  stroke: #555;
+}
+.svg-input .line.ledger {
+  stroke: #d7d7d7;
 }

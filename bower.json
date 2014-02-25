@@ -20,6 +20,8 @@
   ],
   "dependencies": {
     "requirejs": "~2.1.11",
-    "d3": "~3.4.2"
+    "d3": "~3.4.2",
+    "normalize-css": "~3.0.0",
+    "jquery": "~2.1.0"
   }
 }
