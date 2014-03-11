@@ -1,3 +1,3 @@
-##Leitmotif
+#leitmotif
 
-create and share short musical ideas.
+SVG music notation. Powered by [motive](https://github.com/jshanley/motivejs).

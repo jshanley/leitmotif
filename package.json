@@ -4,11 +4,11 @@
   "description": "Music notation built on MotiveJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnshanley/leitmotif.git"
+    "url": "https://github.com/jshanley/leitmotif.git"
   },
   "keywords": [
     "music",
@@ -17,17 +17,12 @@
   "author": "John Shanley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/johnshanley/leitmotif/issues"
+    "url": "https://github.com/jshanley/leitmotif/issues"
   },
-  "homepage": "https://github.com/johnshanley/leitmotif",
+  "homepage": "https://github.com/jshanley/leitmotif",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-gluejs": "0.0.4",
-    "grunt-contrib-watch": "^0.5.3",
-    "grunt-contrib-connect": "^0.7.0",
-    "grunt-contrib-less": "^0.9.0",
-    "requirejs": "^2.1.11",
-    "bower": "^1.2.8"
+    "grunt": "~0.4.3",
+    "grunt-contrib-nodeunit": "~0.3.2"
   },
   "dependencies": {}
 }
