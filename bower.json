@@ -1,0 +1,29 @@
+{
+  "name": "leitmotif",
+  "main": "leitmotif.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jshanley/leitmotif",
+  "authors": [
+    "johnshanley <john.michael.shanley@gmail.com>"
+  ],
+  "description": "SVG music notation",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "SVG",
+    "music",
+    "notation"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
