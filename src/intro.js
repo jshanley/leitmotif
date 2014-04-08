@@ -1,2 +1,5 @@
 (function() {
-  var Leitmotif = {};
+  var Leitmotif = function(config) {
+  	this.context = new Leitmotif.GlobalContext(config);
+  	return this;
+  };

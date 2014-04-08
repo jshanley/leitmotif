@@ -3,8 +3,8 @@
 //   that happen simultaneously in the score
 
 Leitmotif.Event = function(evt) {
-    this.notes = [];
-    this.rests = [];
-    this.directions = [];
+    this.notes = evt.notes || [];
+    this.rests = evt.rests || [];
+    this.directions = evt.directions || [];
     return this;
 };
